@@ -1,5 +1,5 @@
 import React,{ useEffect, useState} from 'react';
-import {View, Text, Image, TouchableOpacity, StyleSheet, Animated, ImageBackground} from 'react-native'
+import {View, Text, Image, TouchableOpacity, StyleSheet, ImageBackground, Dimensions} from 'react-native'
 import { FadeInView, MoveInView } from '../utils/animations';
 export default function Welcome({navigation}){
 	const motto = "Service All The Way!"
@@ -53,31 +53,32 @@ const styles = StyleSheet.create({
 	},
 	image:{
 		position: 'relative',
-		width: 180,
-		height: 220
+		width: Dimensions.get('screen').width*0.52,
+		height: Dimensions.get('screen').width*0.65
 	},
 	motto:{
 		marginTop: 10,
 		fontWeight: 'bold',
-		fontSize: 14,
+		fontSize: Dimensions.get('screen').width*0.05,
 		fontStyle: 'italic',
 		color: '#463e7e',
 		 //ffd016,
 	},
 	button:{
 		backgroundColor:'#ffd016',
-		borderRadius: 10,
-		width: 150,
-		height: 30,
+		borderRadius: Dimensions.get('screen').width*0.04,
+		width: Dimensions.get('screen').width*0.55,
+		height: Dimensions.get('screen').width*0.11,
 		textAlign: 'center',
 		alignItems: 'center',
 		marginTop: 20,
 		justifyContent: 'center',
 	},
 	join:{
-		fontSize: 16,
+		fontSize: Dimensions.get('screen').width*0.05,
 		alignSelf: 'center',
 		color: '#463e7e',
 		fontWeight: 'bold',
+		letterSpacing: 2,
 	}
 })

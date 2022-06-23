@@ -122,7 +122,7 @@ const styles= StyleSheet.create({
     },
     dashboarditem:{
         width: Dimensions.get('screen').width*0.4,
-        height: Dimensions.get('screen').width*0.3,
+        height: Dimensions.get('screen').height*0.18,
         backgroundColor: 'orange',
         marginVertical: 10,
         borderRadius: 10,
