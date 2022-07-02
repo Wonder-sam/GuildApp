@@ -1,8 +1,15 @@
 import React from 'react'
+<<<<<<< HEAD
 import {Text, View, StyleSheet, ScrollView, TextInput, Dimensions} from 'react-native'
 import { Ionicons } from '@expo/vector-icons'
 
 const Profile=()=>{
+=======
+import {Text, View, StyleSheet, ScrollView, TextInput} from 'react-native'
+import { Ionicons } from '@expo/vector-icons'
+
+const Settings=()=>{
+>>>>>>> 4a08513da68b8ecf91ecd96e5c28a3567b488972
     return(
         <View>
             <View style={styles.header}>
@@ -34,11 +41,19 @@ const Profile=()=>{
         </View>
     )
 }
+<<<<<<< HEAD
 export default Profile
 
 const styles= StyleSheet.create({
     header:{
         height: Dimensions.get('screen').height*0.06,
+=======
+export default Settings
+
+const styles= StyleSheet.create({
+    header:{
+        height: 'auto',
+>>>>>>> 4a08513da68b8ecf91ecd96e5c28a3567b488972
         textAlign: 'center',
         backgroundColor: '#463e7e',
         textAlignVertical: "middle"

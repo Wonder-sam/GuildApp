@@ -1,11 +1,19 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "the_guild",
     "slug": "the_guild",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+=======
+    "name": "MyApp",
+    "slug": "MyApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+>>>>>>> 4a08513da68b8ecf91ecd96e5c28a3567b488972
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
